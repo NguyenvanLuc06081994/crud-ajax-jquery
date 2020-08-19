@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::resource('products','ProductController');
 Route::get('products/search','ProductController@search')->name('products.search');
+Route::resource('products','ProductController');
+
 
 //Route::prefix('products')->group(function (){
 //    Route::get('/','ProductController@getAll')->name('product.list');

@@ -18,7 +18,8 @@
 
         <div class="form-group mx-sm-3 mb-2">
             <label for="inputPassword2" class="sr-only">Search</label>
-            <input id="search-product" name="keyword" data-url="{{route('products.search')}}" type="search" class="form-control">
+            <input id="search-product" name="keyword" type="search" class="form-control">
+            {{--            data-url="{{route('products.search')}}"--}}
 
         </div>
 
@@ -211,18 +212,19 @@
             })
         })
 
-        $('#search-product').on('keyup',function (){
+        $('#search-product').on('keyup', function () {
             let url = $(this).attr('data-url');
+            let origin = location.origin;
             let value = $(this).val();
             console.log(value)
             $.ajax({
-                url: url,
+                url: origin + '/products/search',
                 type: 'GET',
                 dataType: 'json',
                 data: {
                     keyword: value
                 },
-                success: function (response){
+                success: function (response) {
                     console.log(response.data)
                     {{--$('tbody').append('<tr><td id="' + response.data.id + '">' + response.data.id + '</td>' +--}}
                     {{--    '<td id="image-' + response.data.id + '">' + response.data.image + '</td>' +--}}
