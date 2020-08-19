@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd76315c-31bf-4de9-8be1-8b825a2e8bd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Laravel-ajax-Jquery---CRUD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084647_create_table_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084855_create_table_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tahoangbinh.stag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module2-LibraryManager" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module2-LibraryManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module3" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudyShop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoLinhTinh/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoLinhTinh/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoLinhTinh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoLinhTinh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile-Shope/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Again-At-Home/ProjectJson/src/Model/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Again-At-Home/ProjectJson/src/Model/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectJSON2/src/Model/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectJSON2/src/Model/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web-shopping" beforeDir="false" afterPath="$PROJECT_DIR$/../Web-shopping" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Console/Commands/LaraStructure.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Console/Stubs/DummyRepository.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Console/Stubs/DummyRepositoryInterface.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Events/OrderCreateEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Helpers/helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Addresses/AddressController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Attributes/AttributeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Attributes/AttributeValueController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Categories/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Categories/Requests/CreateCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Categories/Requests/UpdateCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Cities/CityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Countries/CountryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Countries/Requests/UpdateCountryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Couriers/CourierController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Customers/CustomerAddressController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/EmployeeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Orders/OrderController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Orders/OrderStatusController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Permissions/PermissionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Products/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Provinces/ProvinceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Admin/Roles/RoleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Auth/CartLoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/AccountsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/Addresses/CountryStateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/Addresses/StateCityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/CheckoutController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/CustomerAddressController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Controllers/Front/Payments/BankTransferController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Listeners/OrderCreateEventListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Mail/SendOrderToCustomerMailable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Mail/sendEmailNotificationToAdminMailable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Providers/GlobalTemplateServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Providers/RepositoryServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Addresses/Exceptions/CreateAddressErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Addresses/Repositories/AddressRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Addresses/Requests/UpdateAddressRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/AttributeValues/AttributeValue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Exceptions/AttributeNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Exceptions/CreateAttributeErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Exceptions/UpdateAttributeErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Repositories/AttributeRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Requests/CreateAttributeRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Attributes/Requests/UpdateAttributeRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Base/BaseFormRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Exceptions/CreateBrandErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Exceptions/UpdateBrandErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Repositories/BrandRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Repositories/BrandRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Requests/CreateBrandRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Brands/Requests/UpdateBrandRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Carts/Exceptions/ProductInCartNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Carts/Repositories/CartRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Carts/Repositories/Interfaces/CartRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Carts/Requests/AddToCartRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Carts/ShoppingCart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Categories/Exceptions/CategoryNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Categories/Repositories/CategoryRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Categories/Repositories/Interfaces/CategoryRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Cities/City.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Cities/Exceptions/CityNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Cities/Repositories/CityRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Cities/Requests/UpdateCityRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Countries/Country.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Countries/Repositories/Interfaces/CountryRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Couriers/Courier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Couriers/CourierRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Couriers/Exceptions/CourierInvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Couriers/Repositories/Interfaces/CourierRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Exceptions/CustomerPaymentChargingErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Exceptions/UpdateCutomerInvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Repositories/CustomerRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Repositories/Interfaces/CustomerRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Customers/Requests/CreateCustomerRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Employees/Employee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Employees/Exceptions/EmployeeNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Employees/Repositories/Interfaces/EmployeeRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Employees/Requests/CreateEmployeeRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Employees/Requests/LoginRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/OrderStatuses/Repositories/Interfaces/OrderStatusRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/OrderStatuses/Repositories/OrderStatusRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/OrderStatuses/Requests/CreateOrderStatusRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/OrderStatuses/Requests/UpdateOrderStatusRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Orders/Exceptions/OrderInvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Orders/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Orders/Repositories/Interfaces/OrderRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/PaymentMethods/Payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/PaymentMethods/Paypal/Exceptions/PaypalRequestError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/PaymentMethods/Paypal/Repositories/PayPalExpressCheckoutRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/PaymentMethods/Paypal/Repositories/PayPalExpressCheckoutRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/PaymentMethods/Stripe/StripeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Exceptions/CreatePermissionErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Exceptions/DeletePermissionErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Exceptions/PermissionNotFoundErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Exceptions/UpdatePermissionErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Permission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Permissions/Repositories/Interfaces/PermissionRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/ProductAttributes/Exceptions/ProductAttributeNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/ProductAttributes/ProductAttribute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/ProductAttributes/Repositories/ProductAttributeRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/ProductImages/ProductImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/ProductImages/ProductImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Products/Exceptions/ProductNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Products/Exceptions/ProductUpdateErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Products/Repositories/Interfaces/ProductRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Products/Repositories/ProductRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Products/Transformations/ProductTransformable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Provinces/Exceptions/ProvinceNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Provinces/Province.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Provinces/Repositories/Interfaces/ProvinceRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Roles/Exceptions/CreateRoleErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Roles/Exceptions/RoleNotFoundErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Roles/Exceptions/UpdateRoleErrorException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Roles/Repositories/RoleRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Roles/Repositories/RoleRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Shipping/ShippingInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/States/Repositories/StateRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/States/Repositories/StateRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Teams/Team.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/app/Shop/Tools/UploadableTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/bitbucket-pipelines.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/bootstrap/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/bank-transfer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/laratrust.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/larecipe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/payees.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/stripe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/AttributeValueModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/BrandModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/CategoryModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/CityModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/CourierModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/EmployeeModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/OrderModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/OrderStatusModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/ProductAttributeModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/ProvinceModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/RoleModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/factories/StateModelFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2014_10_12_000000_create_customers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2014_10_12_000010_create_employees_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2017_06_11_033553_create_category_product_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2017_06_11_073305_create_address_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_02_19_151228_create_cost_column.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_10_024148_laratrust_setup_tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_10_110530_create_attributes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_10_150920_create_attribute_values_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_11_014046_create_product_attributes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_11_090249_create_attribute_value_product_attribute_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_03_15_232344_create_customer_subscription_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_06_16_000410_add_fields_on_order_product_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_06_16_102641_create_brands_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_06_17_175657_add_brand_id_in_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_06_18_135142_add_columns_in_product_attributes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_06_30_041523_add_product_attributes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_07_16_184224_add_phone_number_in_address_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_07_16_190024_add_tracking_number_and_label_url_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/migrations/2018_07_17_184437_add_sale_price_in_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/AttributeTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/BrandsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/CategoriesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/CourierTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/CustomersTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/EmployeesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/MyCitiesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/MyCountryTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/MyProvincesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/OrderStatusTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/ProductsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/database/seeds/USCitiesTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/android-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/android-icon-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/android-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/android-icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/apple-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/favicons/ms-icon-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/fonts/nucleo-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/fonts/nucleo-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/public/vendor/binarytorch/larecipe/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/_all-skins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/_all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-black-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-black-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-blue-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-green-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-green-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-purple-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-purple-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-red-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-yellow-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/css/skins/skin-yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/avatar04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/boxed-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/mestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/photo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/user1-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/user3-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/user4-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/user6-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/img/user8-128x128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/admin-lte/js/pages/dashboard2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/css/drift-basic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/css/front.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/js/Drift.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/js/jquery-2.2.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/docs/1.4.6/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/docs/1.4.6/installation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/docs/1.4.6/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/addresses/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/addresses/customers/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/addresses/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/addresses/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/addresses/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/attributes/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/attributes/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/attributes/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/attributes/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/brands/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/brands/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/categories/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/countries/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/couriers/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/customers/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/customers/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/customers/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/customers/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/dashboard.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/employees/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/employees/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/employees/profile.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/employees/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/order-statuses/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/order-statuses/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/orders/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/payment-methods/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/permissions/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/products/attributes.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/products/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/products/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/provinces/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/roles/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/roles/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/shared/categories.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/shared/cities.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/shared/products.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/shared/roles.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/admin/shared/status-select.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/auth/admin/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/emails/customer/sendOrderDetailsToCustomer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/accounts.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/bank-transfer-redirect.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/carts/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/categories/sidebar-category.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/checkout-success.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/checkout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/customers/addresses/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/customers/addresses/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/payments/paypal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/payments/stripe.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/products/product-list-table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/products/product-list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/products/product.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/front/shared/sidebar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/invoices/orders.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/admin/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/admin/control-sidebar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/admin/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/admin/sidebar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/errors-and-messages.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/errors/404.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/errors/503.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/category-nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/category-sidebar-sub.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/category-sub.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/payment-options.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/product.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/front/sidebar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/search.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/resources/views/layouts/status.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Addresses/AddressFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Attributes/AttributesFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Brands/BrandFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Categories/CategoryFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Cities/CityFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Courier/CourierFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/OrderStatus/OrderStatusFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Permissions/PermissionFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Products/ProductFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Admin/Provinces/ProvinceFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/Accounts/FrontAccountsFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/Cart/CartFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/Categories/FrontCategoryFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/Checkout/CheckoutFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/CustomerAddresses/CustomerAddressFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/Products/FrontProductFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Feature/Front/States/StateFeatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/ArtisanCommands.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/AttributeValues/AttributeValueUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Attributes/AttributeUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Cart/CartUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Checkout/CheckoutUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Cities/CityUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Courier/CourierUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Customers/CustomerUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Employees/EmployeeUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/OrderStatuses/OrderStatusUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Orders/OrderUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Permissions/PermissionUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/ProductAttributes/ProductAttributeUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laracom/tests/Unit/Provinces/ProvincesUnitTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/Api/GithubController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/Api/GithubController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/LogoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/LogoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Middleware/CheckLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Middleware/CheckLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Repositories/RoleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Repositories/RoleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Services/RoleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Services/RoleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Http/Services/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_10_190358_create_table_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_10_190358_create_table_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_12_043405_create_roles_talbe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_12_043405_create_roles_talbe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_12_044619_create_role_user_talbe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/migrations/2020_08_12_044619_create_role_user_talbe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/ProductsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/ProductsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/RoleSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/RoleSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/public/js/myJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/public/js/myJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/github/user/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/github/user/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/product/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/product/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/product/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/product/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/user/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel-web-login-logout-using-session/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Classes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Controllers/ClassController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Controllers/CustomerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Controllers/StudentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Repositories/ClassRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Repositories/StudentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Services/ClassService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Http/Services/StudentService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2020_08_05_100952_customer_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2020_08_05_173704_create_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2020_08_06_080059_create_classes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/migrations/2020_08_06_080429_add_column_class_id_to_students_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/seeds/ClassTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/seeds/CustomerTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/classes/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/classes/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/classes/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/customer/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/customer/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/customer/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/layout/menu.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/master/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/students/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/students/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/students/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manage-customer/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Repositories/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Repositories/CategoryRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Repositories/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Repositories/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Services/CategoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Services/CategoryService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Http/Services/ProductService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Http/Services/ProductService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../product/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../product/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_031152_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_031152_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_031923_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_031923_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_032135_add_foreign_key_to_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/database/migrations/2020_08_07_032135_add_foreign_key_to_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/database/seeds/CategorySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/database/seeds/CategorySeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../product/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/public/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/public/js/demo/chart-area-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/public/js/demo/chart-bar-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/public/js/demo/chart-bar-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/public/js/demo/chart-pie-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/public/js/demo/chart-pie-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/public/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/public/js/demo/datatables-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/category/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/category/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/category/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/category/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/category/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/category/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/menu/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/menu/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/product/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/product/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/product/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/product/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/product/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/product/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../product/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1gHAvGu5LMfQcLljgqUfTdWUasW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tahoangbinh.stag" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd76315c-31bf-4de9-8be1-8b825a2e8bd2" name="Default Changelist" comment="" />
+      <created>1597761373255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597761373255</updated>
+      <workItem from="1597761374379" duration="9278000" />
+      <workItem from="1597790690583" duration="5218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="281" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597793581345">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="693" y="281" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597793581345" />
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1597792528249">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1597792528249" />
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1597765255044">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597765255044" />
+  </component>
+</project>
